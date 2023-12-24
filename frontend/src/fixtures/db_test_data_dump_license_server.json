@@ -1,0 +1,52 @@
+[
+    {
+        "model": "issue_licenses.licensefeaturedescription",
+        "pk": 1,
+        "fields": {
+            "feature_name": "MaxAnalyzerResults",
+            "feature_explanation": {
+                "de": "Maximale Anzahl an Analyzer Ergbnissen die beim UDS Scan Run Bericht angezeigt werden.",
+                "en": "Maximum amount of analyzer results displayed at the UDS scan run report."
+            }
+        }
+    },
+    {
+        "model": "issue_licenses.licensefeaturedescription",
+        "pk": 2,
+        "fields": {
+            "feature_name": "MaxUDSScanTime",
+            "feature_explanation": {
+                "de": "Maximale Laufzeit in Sekunden für einen UDS Scan Run.",
+                "en": "Maximum amount of time in seconds the UDS scan run is allowed to run."
+            }
+        }
+    },
+    {
+        "model": "issue_licenses.licenseinfo",
+        "pk": 1,
+        "fields": {
+            "license_name": "Personal",
+            "license_details": {
+                "features": {
+                    "MaxAnalyzerResults": "unlimited",
+                    "MaxUDSScanTime": "unlimited"
+                },
+                "price": 99
+            }
+        }
+    },
+    {
+        "model": "issue_licenses.licenseinfo",
+        "pk": 4,
+        "fields": {
+            "license_name": "Free",
+            "license_details": {
+                "features": {
+                    "MaxAnalyzerResults": 10,
+                    "MaxUDSScanTime": 300
+                },
+                "price": "Free"
+            }
+        }
+    }
+]

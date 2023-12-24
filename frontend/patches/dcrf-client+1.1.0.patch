@@ -1,0 +1,81 @@
+diff --git a/node_modules/dcrf-client/lib/index.d.ts b/node_modules/dcrf-client/lib/index.d.ts
+index e36b7a2..b2cdd7e 100644
+--- a/node_modules/dcrf-client/lib/index.d.ts
++++ b/node_modules/dcrf-client/lib/index.d.ts
+@@ -48,12 +48,12 @@ export declare class DCRFClient implements IStreamingAPI {
+     close(unsubscribe?: boolean): Promise<any>;
+     list(stream: string, data?: object, requestId?: string): Promise<any>;
+     create(stream: string, props: object, requestId?: string): Promise<any>;
+-    retrieve(stream: string, pk: number, data?: object, requestId?: string): Promise<any>;
+-    update(stream: string, pk: number, props: object, requestId?: string): Promise<any>;
+-    patch(stream: string, pk: number, props: object, requestId?: string): Promise<any>;
+-    delete(stream: string, pk: number, data?: object, requestId?: string): Promise<any>;
+-    subscribe(stream: string, pk: number, callback: SubscriptionHandler, options?: SubscribeOptions): SubscriptionPromise<object>;
+-    subscribe(stream: string, pk: number, callback: SubscriptionHandler, requestId?: string): SubscriptionPromise<object>;
++    retrieve(stream: string, pk: any, data?: object, requestId?: string): Promise<any>;
++    update(stream: string, pk: any, props: object, requestId?: string): Promise<any>;
++    patch(stream: string, pk: any, props: object, requestId?: string): Promise<any>;
++    delete(stream: string, pk: any, data?: object, requestId?: string): Promise<any>;
++    subscribe(stream: string, pk: any, callback: SubscriptionHandler, options?: SubscribeOptions): SubscriptionPromise<object>;
++    subscribe(stream: string, pk: any, callback: SubscriptionHandler, requestId?: string): SubscriptionPromise<object>;
+     subscribe(stream: string, args: object, callback: SubscriptionHandler, options?: SubscribeOptions): SubscriptionPromise<object>;
+     subscribe(stream: string, args: object, callback: SubscriptionHandler, requestId?: string): SubscriptionPromise<object>;
+     unsubscribeAll(): Promise<number>;
+diff --git a/node_modules/dcrf-client/lib/interface.d.ts b/node_modules/dcrf-client/lib/interface.d.ts
+index ccde0ef..64a92e8 100644
+--- a/node_modules/dcrf-client/lib/interface.d.ts
++++ b/node_modules/dcrf-client/lib/interface.d.ts
+@@ -223,7 +223,7 @@ export interface IStreamingAPI {
+      *     On success, the promise will be resolved with the retrieved object.
+      *     On failure, the promise will be rejected with the entire API response.
+      */
+-    retrieve(stream: string, pk: number, data?: object, requestId?: string): Promise<object>;
++    retrieve(stream: string, pk: any, data?: object, requestId?: string): Promise<object>;
+     /**
+      * Overwrite an existing object
+      *
+@@ -236,7 +236,7 @@ export interface IStreamingAPI {
+      *     On success, the promise will be resolved with the updated object.
+      *     On failure, the promise will be rejected with the entire API response.
+      */
+-    update(stream: string, pk: number, props: object, requestId?: string): Promise<object>;
++    update(stream: string, pk: any, props: object, requestId?: string): Promise<object>;
+     /**
+      * Partially update an existing object
+      *
+@@ -249,7 +249,7 @@ export interface IStreamingAPI {
+      *    On success, the promise will be resolved with the updated object.
+      *    On failure, the promise will be rejected with the entire API response.
+      */
+-    patch(stream: string, pk: number, props: object, requestId?: string): Promise<object>;
++    patch(stream: string, pk: any, props: object, requestId?: string): Promise<object>;
+     /**
+      * Delete an existing object
+      *
+@@ -262,7 +262,7 @@ export interface IStreamingAPI {
+      *    On success, the promise will be resolved with null, or an empty object.
+      *    On failure, the promise will be rejected with the entire API response.
+      */
+-    delete(stream: string, pk: number, data?: object, requestId?: string): Promise<object | null>;
++    delete(stream: string, pk: any, data?: object, requestId?: string): Promise<object | null>;
+     /**
+      * Subscribe to update and delete events for an object, or perform a custom subscription
+      *
+@@ -285,7 +285,7 @@ export interface IStreamingAPI {
+      *    This Promise has an additional method, cancel(), which can be called
+      *    to cancel the subscription.
+      */
+-    subscribe(stream: string, pk: number, callback: SubscriptionHandler, options?: SubscribeOptions): CancelablePromise<object | null>;
++    subscribe(stream: string, pk: any, callback: SubscriptionHandler, options?: SubscribeOptions): CancelablePromise<object | null>;
+     /**
+      * Subscribe to update and delete events for an object, or perform a custom subscription
+      *
+@@ -301,7 +301,7 @@ export interface IStreamingAPI {
+      *    This Promise has an additional method, cancel(), which can be called
+      *    to cancel the subscription.
+      */
+-    subscribe(stream: string, pk: number, callback: SubscriptionHandler, requestId?: string): CancelablePromise<object | null>;
++    subscribe(stream: string, pk: any, callback: SubscriptionHandler, requestId?: string): CancelablePromise<object | null>;
+     /**
+      * Subscribe to update and delete events for an object, or perform a custom subscription
+      *

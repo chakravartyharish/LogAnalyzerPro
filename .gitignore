@@ -1,0 +1,6 @@
+.*
+!.env
+!.gitignore
+__pycache__
+venv*
+translation_old.json

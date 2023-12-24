@@ -1,0 +1,113 @@
+2023-11-16 10:13:56,646 - Set can_filters depending on isotp_socket.rx_id: [{'can_id': 2025, 'can_mask': 2047}, {'can_id': 2017, 'can_mask': 2047}]
+2023-11-16 10:13:56,647 - Config: {'can_socket': {'bustype': 'socketcan', 'channel': 'can0', 'can_filters': [{'can_id': 2025, 'can_mask': 2047}, {'can_id': 2017, 'can_mask': 2047}]}, 'isotp_socket': {'rx_id': 2025, 'tx_id': 2017, 'basecls': <class 'scapy.contrib.automotive.obd.obd.OBD'>, 'padding': True}, 'log_level': 10, 'output_file': '/tmp/tmpf74wbs4i/OBD_2025_2017/scan_results.json.gz', 'can_logfile': '/tmp/tmpf74wbs4i/OBD_2025_2017/can.log.gz', 'obd_logfile': '/tmp/tmpf74wbs4i/OBD_2025_2017/obd.log.gz', 'scanner_logfile': '/tmp/tmpf74wbs4i/OBD_2025_2017/scan.log.gz', 'output_pickle_file': '/tmp/tmpf74wbs4i/OBD_2025_2017/scan.pkl.gz', 'obd_scan_arguments': {'scan_timeout': 3600, 'timeout': 0.3}}
+2023-11-16 10:13:56,649 - The following configuration was created
+2023-11-16 10:13:56,650 - {'verbose': False, 'debug': False, 'unittest': False, 'state_graph': <scapy.contrib.automotive.scanner.graph.Graph object at 0xb44f3f30>, 'test_cases': [<scapy.contrib.automotive.obd.scanner.OBD_S01_Enumerator object at 0xb44fb0f0>, <scapy.contrib.automotive.obd.scanner.OBD_S02_Enumerator object at 0xb44fb130>, <scapy.contrib.automotive.obd.scanner.OBD_S06_Enumerator object at 0xb44fb170>, <scapy.contrib.automotive.obd.scanner.OBD_S08_Enumerator object at 0xb44fb1b0>, <scapy.contrib.automotive.obd.scanner.OBD_S09_Enumerator object at 0xb44fb1f0>, <scapy.contrib.automotive.obd.scanner.OBD_S03_Enumerator object at 0xb44fb270>, <scapy.contrib.automotive.obd.scanner.OBD_S07_Enumerator object at 0xb44fb290>, <scapy.contrib.automotive.obd.scanner.OBD_S0A_Enumerator object at 0xb44fb2d0>], 'stages': [], 'staged_test_cases': [], 'test_case_clss': {<class 'scapy.contrib.automotive.obd.scanner.OBD_S03_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S09_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S08_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S06_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S02_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S01_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S0A_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S07_Enumerator'>}, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'global_kwargs': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S01_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S02_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S06_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S08_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S09_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S03_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S07_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S0A_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}}
+2023-11-16 10:13:56,651 - The following configuration was created
+2023-11-16 10:13:56,652 - {'verbose': False, 'debug': False, 'unittest': False, 'state_graph': <scapy.contrib.automotive.scanner.graph.Graph object at 0xb44f3f30>, 'test_cases': [<scapy.contrib.automotive.obd.scanner.OBD_S01_Enumerator object at 0xb44fb0f0>, <scapy.contrib.automotive.obd.scanner.OBD_S02_Enumerator object at 0xb44fb130>, <scapy.contrib.automotive.obd.scanner.OBD_S06_Enumerator object at 0xb44fb170>, <scapy.contrib.automotive.obd.scanner.OBD_S08_Enumerator object at 0xb44fb1b0>, <scapy.contrib.automotive.obd.scanner.OBD_S09_Enumerator object at 0xb44fb1f0>, <scapy.contrib.automotive.obd.scanner.OBD_S03_Enumerator object at 0xb44fb270>, <scapy.contrib.automotive.obd.scanner.OBD_S07_Enumerator object at 0xb44fb290>, <scapy.contrib.automotive.obd.scanner.OBD_S0A_Enumerator object at 0xb44fb2d0>], 'stages': [], 'staged_test_cases': [], 'test_case_clss': {<class 'scapy.contrib.automotive.obd.scanner.OBD_S03_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S09_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S08_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S06_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S02_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S01_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S0A_Enumerator'>, <class 'scapy.contrib.automotive.obd.scanner.OBD_S07_Enumerator'>}, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'global_kwargs': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S01_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S02_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S06_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S08_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S09_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S03_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S07_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}, 'OBD_S0A_Enumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>}}
+2023-11-16 10:13:56,652 - Starting OBD-Scan...
+2023-11-16 10:13:56,653 - [i] Scan progress 0.00
+2023-11-16 10:13:56,653 - [i] Scan paths [[session1]]
+2023-11-16 10:13:56,654 - Scan path [session1]
+2023-11-16 10:13:56,654 - Target reset
+2023-11-16 10:13:56,655 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S01_Enumerator object at 0xb44fb0f0> for path [session1]
+2023-11-16 10:13:56,655 - Execute test_case OBD_S01_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:13:56,658 - Start execution of enumerator: Thu Nov 16 10:13:56 2023
+2023-11-16 10:13:58,238 - Finished iterator execution
+2023-11-16 10:13:58,239 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:13:58,241 - Start execution of enumerator: Thu Nov 16 10:13:58 2023
+2023-11-16 10:13:58,451 - Finished iterator execution
+2023-11-16 10:13:58,452 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:13:58,453 - [i] Test_case OBD_S01_Enumerator: TODO 8, DONE 17, TOTAL 2.12
+2023-11-16 10:13:58,453 - Scan path [session1]
+2023-11-16 10:13:58,454 - Target reset
+2023-11-16 10:13:58,455 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S02_Enumerator object at 0xb44fb130> for path [session1]
+2023-11-16 10:13:58,456 - Execute test_case OBD_S02_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:13:58,464 - Start execution of enumerator: Thu Nov 16 10:13:58 2023
+2023-11-16 10:14:00,909 - Finished iterator execution
+2023-11-16 10:14:00,909 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:00,910 - Start execution of enumerator: Thu Nov 16 10:14:00 2023
+2023-11-16 10:14:00,910 - Finished iterator execution
+2023-11-16 10:14:00,911 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:00,911 - [i] Test_case OBD_S02_Enumerator: TODO 8, DONE 8, TOTAL 1.00
+2023-11-16 10:14:00,912 - Scan path [session1]
+2023-11-16 10:14:00,912 - Target reset
+2023-11-16 10:14:00,912 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S06_Enumerator object at 0xb44fb170> for path [session1]
+2023-11-16 10:14:00,913 - Execute test_case OBD_S06_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:14:00,916 - Start execution of enumerator: Thu Nov 16 10:14:00 2023
+2023-11-16 10:14:00,928 - Stop test_case execution because of response evaluation
+2023-11-16 10:14:00,929 - Start execution of enumerator: Thu Nov 16 10:14:00 2023
+2023-11-16 10:14:00,929 - Finished iterator execution
+2023-11-16 10:14:00,930 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:00,930 - [i] Test_case OBD_S06_Enumerator: TODO 8, DONE 1, TOTAL 0.12
+2023-11-16 10:14:00,930 - Scan path [session1]
+2023-11-16 10:14:00,931 - Target reset
+2023-11-16 10:14:00,931 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S08_Enumerator object at 0xb44fb1b0> for path [session1]
+2023-11-16 10:14:00,932 - Execute test_case OBD_S08_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:14:00,935 - Start execution of enumerator: Thu Nov 16 10:14:00 2023
+2023-11-16 10:14:00,948 - Stop test_case execution because of response evaluation
+2023-11-16 10:14:00,949 - Start execution of enumerator: Thu Nov 16 10:14:00 2023
+2023-11-16 10:14:00,949 - Finished iterator execution
+2023-11-16 10:14:00,949 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:00,950 - [i] Test_case OBD_S08_Enumerator: TODO 8, DONE 1, TOTAL 0.12
+2023-11-16 10:14:00,950 - Scan path [session1]
+2023-11-16 10:14:00,951 - Target reset
+2023-11-16 10:14:00,951 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S09_Enumerator object at 0xb44fb1f0> for path [session1]
+2023-11-16 10:14:00,951 - Execute test_case OBD_S09_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:14:00,955 - Start execution of enumerator: Thu Nov 16 10:14:00 2023
+2023-11-16 10:14:03,109 - Finished iterator execution
+2023-11-16 10:14:03,110 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:03,112 - Start execution of enumerator: Thu Nov 16 10:14:03 2023
+2023-11-16 10:14:03,222 - Finished iterator execution
+2023-11-16 10:14:03,223 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:03,224 - [i] Test_case OBD_S09_Enumerator: TODO 8, DONE 11, TOTAL 1.38
+2023-11-16 10:14:03,225 - Scan path [session1]
+2023-11-16 10:14:03,226 - Target reset
+2023-11-16 10:14:03,227 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S03_Enumerator object at 0xb44fb270> for path [session1]
+2023-11-16 10:14:03,227 - Execute test_case OBD_S03_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:14:03,230 - Start execution of enumerator: Thu Nov 16 10:14:03 2023
+2023-11-16 10:14:03,251 - Finished iterator execution
+2023-11-16 10:14:03,252 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:03,252 - [i] Test_case OBD_S03_Enumerator: TODO 1, DONE 1, TOTAL 1.00
+2023-11-16 10:14:03,253 - Scan path [session1]
+2023-11-16 10:14:03,254 - Target reset
+2023-11-16 10:14:03,255 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S07_Enumerator object at 0xb44fb290> for path [session1]
+2023-11-16 10:14:03,256 - Execute test_case OBD_S07_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:14:03,258 - Start execution of enumerator: Thu Nov 16 10:14:03 2023
+2023-11-16 10:14:03,280 - Finished iterator execution
+2023-11-16 10:14:03,281 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:03,282 - [i] Test_case OBD_S07_Enumerator: TODO 1, DONE 1, TOTAL 1.00
+2023-11-16 10:14:03,282 - Scan path [session1]
+2023-11-16 10:14:03,283 - Target reset
+2023-11-16 10:14:03,283 - Execute <scapy.contrib.automotive.obd.scanner.OBD_S0A_Enumerator object at 0xb44fb2d0> for path [session1]
+2023-11-16 10:14:03,284 - Execute test_case OBD_S0A_Enumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb44f3fb0: unset>, 'execution_time': 1200}
+2023-11-16 10:14:03,286 - Start execution of enumerator: Thu Nov 16 10:14:03 2023
+2023-11-16 10:14:03,310 - Finished iterator execution
+2023-11-16 10:14:03,310 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:14:03,311 - [i] Test_case OBD_S0A_Enumerator: TODO 1, DONE 1, TOTAL 1.00
+2023-11-16 10:14:03,312 - [i] Scan progress 0.97
+2023-11-16 10:14:03,313 - [i] Scan paths [[session1]]
+2023-11-16 10:14:03,314 - Scan path [session1]
+2023-11-16 10:14:03,314 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S01_Enumerator object at 0xb44fb0f0> completed
+2023-11-16 10:14:03,315 - Scan path [session1]
+2023-11-16 10:14:03,316 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S02_Enumerator object at 0xb44fb130> completed
+2023-11-16 10:14:03,316 - Scan path [session1]
+2023-11-16 10:14:03,317 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S06_Enumerator object at 0xb44fb170> completed
+2023-11-16 10:14:03,317 - Scan path [session1]
+2023-11-16 10:14:03,318 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S08_Enumerator object at 0xb44fb1b0> completed
+2023-11-16 10:14:03,319 - Scan path [session1]
+2023-11-16 10:14:03,319 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S09_Enumerator object at 0xb44fb1f0> completed
+2023-11-16 10:14:03,320 - Scan path [session1]
+2023-11-16 10:14:03,320 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S03_Enumerator object at 0xb44fb270> completed
+2023-11-16 10:14:03,321 - Scan path [session1]
+2023-11-16 10:14:03,321 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S07_Enumerator object at 0xb44fb290> completed
+2023-11-16 10:14:03,322 - Scan path [session1]
+2023-11-16 10:14:03,322 - State session1 for <scapy.contrib.automotive.obd.scanner.OBD_S0A_Enumerator object at 0xb44fb2d0> completed
+2023-11-16 10:14:03,323 - Execute failure or scan completed. Exit scan!
+2023-11-16 10:14:03,323 - Target reset
+2023-11-16 10:14:03,324 - Finished scan
+2023-11-16 10:14:03,349 - [+] Scanner pickled to /tmp/tmpf74wbs4i/OBD_2025_2017/scan.pkl.gz
+2023-11-16 10:14:03,489 - [+] Outputfile /tmp/tmpf74wbs4i/OBD_2025_2017/scan_results.json.gz written.
+2023-11-16 10:14:03,491 - Starting cleanup
+2023-11-16 10:14:03,491 - Closing sockets
+2023-11-16 10:14:03,524 - Sockets closed
+2023-11-16 10:14:03,524 - Closing loggers

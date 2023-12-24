@@ -1,0 +1,41 @@
+[
+    {
+        "model": "core.hwinterface",
+        "pk": 8,
+        "fields": {
+            "name": "SLCAN|USBtin|A021917B",
+            "category": "CAN",
+            "subtype": "SLCAN",
+            "state": "AVAILABLE",
+            "config": {
+                "usbcatherder_data": {
+                    "ttyBaudrate": "115200",
+                    "bitrate": null,
+                    "btr": null,
+                    "rtscts": false,
+                    "sleep_after_open": 2.0
+                }
+            },
+            "current_device_path": {
+                "bustype": "slcan",
+                "channel": "/dev/ttyACM0"
+            },
+            "extended_state": {
+                "type": "SLCAN",
+                "device": "/dev/ttyACM0",
+                "likelihood": 1.0,
+                "serial": "A021917B",
+                "pid": 10,
+                "vid": 1240,
+                "interface": null,
+                "description": "USBtin",
+                "location": "3-2.4:1.0",
+                "manufacturer": "Microchip Technology, Inc.",
+                "name": "ttyACM0",
+                "product": "USBtin"
+            },
+            "created_at": "2023-04-26T07:39:50.489Z",
+            "updated_at": "2023-04-26T07:40:10.885Z"
+        }
+    }
+] 

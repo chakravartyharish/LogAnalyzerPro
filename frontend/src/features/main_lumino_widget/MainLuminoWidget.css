@@ -1,0 +1,229 @@
+@import "../../../node_modules/@lumino/dragdrop/style/index.css";
+@import "../../../node_modules/@lumino/widgets/style/index.css";
+@import "../../../node_modules/@lumino/default-theme/style/commandpalette.css";
+@import "../../../node_modules/@lumino/default-theme/style/datagrid.css";
+@import "../../../node_modules/@lumino/default-theme/style/dockpanel.css";
+@import "../../../node_modules/@lumino/default-theme/style/menu.css";
+@import "../../../node_modules/@lumino/default-theme/style/menubar.css";
+@import "../../../node_modules/@lumino/default-theme/style/scrollbar.css";
+
+#menuBar {
+  flex: 0 0 auto;
+}
+
+#palette {
+  min-width: 300px;
+  border-right: 1px solid;
+}
+
+.luminoMainPanel {
+  flex: 1 1 auto;
+  height: 100%;
+}
+
+#luminoMenuPanel {
+  min-width: 300px;
+}
+
+#luminoTermPanel {
+  min-height: 160px;
+}
+
+/*
+.luminoSibaPanel {
+}
+
+.luminoBobaPanel {
+}
+*/
+
+.luminoWidgetContent {
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border: 1px solid;
+  border-top: none;
+  border-left: none;
+}
+
+.p-DockPanel-handle,
+.lm-DockPanel-handle {
+  width: 1px;
+}
+
+.p-TabBar-content,
+.lm-TabBar-content {
+  border: 1px solid;
+}
+.p-TabBar-tab,
+.lm-TabBar-tab {
+  min-height: 22px;
+  max-height: 22px;
+  flex: none;
+}
+
+.p-TabBar-tab.p-mod-current,
+.lm-tabBar-tab.lm-mod-current {
+  min-height: 24px;
+  max-height: 24px;
+  transform: translate(-1px, 1px);
+  flex: none;
+}
+
+.p-TabBar-tab.p-mod-closable > .p-TabBar-tabCloseIcon:before,
+.lm-TabBar-tab.lm-mod-closable > .lm-TabBar-tabCloseIcon:before {
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  content: "✖";
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.p-DockPanel-overlay,
+.lm-DockPanel-overlay {
+  border: none;
+  transition-property: top, left, right, bottom;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+}
+
+#luminoVersionPanel {
+  font-size: 8px;
+  max-height: 30px;
+  min-height: 30px !important;
+  height: 30px !important;
+}
+
+#VERSIONS {
+  height: 30px !important;
+  max-height: 30px !important;
+  min-height: 30px !important;
+  padding: 1px;
+}
+
+/* copied and modified from tabbar.css */
+/*-----------------------------------------------------------------------------
+| Copyright (c) Jupyter Development Team.
+| Copyright (c) 2014-2017, PhosphorJS Contributors
+|
+| Distributed under the terms of the BSD 3-Clause License.
+|
+| The full license is in the file LICENSE, distributed with this software.
+|----------------------------------------------------------------------------*/
+
+/* <DEPRECATED> */
+.p-TabBar, /* </DEPRECATED> */
+.lm-TabBar {
+  min-height: 24px;
+  max-height: 24px;
+}
+
+/* <DEPRECATED> */
+.p-TabBar-content, /* </DEPRECATED> */
+.lm-TabBar-content {
+  min-width: 0;
+  min-height: 0;
+  align-items: flex-end;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+/* <DEPRECATED> */
+.p-TabBar-tab, /* </DEPRECATED> */
+.lm-TabBar-tab {
+  padding: 0px 10px;
+  /*border: 1px solid #c0c0c0;*/
+  border: 1px solid #ffcd00;
+  /*box-shadow: 1px 5px 5px #ffcd00;*/
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  font: 12px Helvetica, Arial, sans-serif;
+  min-height: 20px;
+  max-height: 20px;
+  min-width: 35px;
+  margin-left: -1px;
+  line-height: 20px;
+  /*flex: 0 1 125px;*/
+  flex: none;
+}
+
+.lm-TabBar-tabLabel .lm-TabBar-tabInput {
+  padding: 0px;
+  border: 0px;
+  font: 12px Helvetica, Arial, sans-serif;
+}
+
+/* <DEPRECATED> */
+.p-TabBar-tab.p-mod-current, /* </DEPRECATED> */
+.lm-TabBar-tab.lm-mod-current {
+  background: rgba(255, 205, 0, 0.16);
+  border-bottom: 2px solid #0d86e995;
+  flex: none;
+}
+
+/* <DEPRECATED> */
+.p-TabBar-tab:first-child, /* </DEPRECATED> */
+.lm-TabBar-tab:first-child {
+  margin-left: 0;
+}
+
+/* <DEPRECATED> */
+.p-TabBar-tab.p-mod-current, /* </DEPRECATED> */
+.lm-TabBar-tab.lm-mod-current {
+  min-height: 23px;
+  max-height: 23px;
+  transform: translateY(1px);
+}
+
+/* <DEPRECATED> */
+.p-TabBar-tabIcon,
+.p-TabBar-tabLabel,
+.p-TabBar-tabCloseIcon,
+/* </DEPRECATED> */
+.lm-TabBar-tabIcon,
+.lm-TabBar-tabLabel,
+.lm-TabBar-tabCloseIcon {
+  display: inline-block;
+}
+
+/* <DEPRECATED> */
+.p-TabBar-tab.p-mod-closable > .p-TabBar-tabCloseIcon,
+/* </DEPRECATED> */
+.lm-TabBar-tab.lm-mod-closable > .lm-TabBar-tabCloseIcon {
+  margin-left: 4px;
+}
+
+/*
+.lm-TabBar .lm-TabBar-addButton {
+  padding: 0px 6px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.lm-TabBar .lm-TabBar-addButton:before {
+  content: '\f067';
+  font-family: FontAwesome;
+}
+*/
+
+/* <DEPRECATED> */
+.p-TabBar-tab.p-mod-drag-image,
+/* </DEPRECATED> */
+.lm-TabBar-tab.lm-mod-drag-image {
+  min-height: 23px;
+  max-height: 23px;
+  min-width: 125px;
+  border: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  transform: translateX(-40%) translateY(-58%);
+}
+
+/* .searchBar {
+  position: absolute !important;
+  top: 30px !important;
+  left: 10px !important;
+  z-index: 1000 !important;
+} */

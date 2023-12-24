@@ -1,0 +1,979 @@
+2023-11-16 10:31:43,779 - Set can_filters depending on isotp_socket.rx_id: [{'can_id': 1552, 'can_mask': 2047}, {'can_id': 1777, 'can_mask': 2047}]
+2023-11-16 10:31:43,780 - Config: {'can_socket': {'bustype': 'socketcan', 'channel': 'can0', 'can_filters': [{'can_id': 1552, 'can_mask': 2047}, {'can_id': 1777, 'can_mask': 2047}]}, 'isotp_socket': {'rx_id': 1552, 'tx_id': 1777, 'ext_address': 16, 'rx_ext_address': 241, 'basecls': <class 'scapy.contrib.automotive.uds.UDS'>, 'padding': False}, 'log_level': 10, 'output_file': '/tmp/tmpf74wbs4i/ZGW_01/scan_results.json.gz', 'can_logfile': '/tmp/tmpf74wbs4i/ZGW_01/can.log.gz', 'uds_logfile': '/tmp/tmpf74wbs4i/ZGW_01/uds.log.gz', 'scanner_logfile': '/tmp/tmpf74wbs4i/ZGW_01/scan.log.gz', 'output_pickle_file': '/tmp/tmpf74wbs4i/ZGW_01/scan.pkl.gz', 'uds_scan_arguments': {'scan_timeout': 7200, 'timeout': 0.3, 'test_cases': [<class 'scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_TPEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_RCEnumerator'>], 'UDS_DSCEnumerator_kwargs': {'state_allow_list': [session1tp1], 'scan_range': [1, 2, 3, 4]}, 'UDS_ServiceEnumerator_kwargs': {'state_allow_list': [session1tp1]}, 'UDS_RDBIEnumerator_kwargs': {'state_allow_list': [session1tp1], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535]}, 'UDS_DTCFullEnumerator_kwargs': {'state_allow_list': [session1tp1]}, 'UDS_RCEnumerator_kwargs': {'state_allow_list': [session1tp1], 'type_list': [2, 3], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535]}}}
+2023-11-16 10:31:43,889 - [+] Connection established
+2023-11-16 10:31:43,930 - Using the following reset pkt: <UDS  service=ECUReset |<UDS_ER  resetType=hardReset |>>
+2023-11-16 10:31:43,931 - Using timeout with rtt_reset: 0.002139568328857422
+2023-11-16 10:31:43,974 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=None, reset_type=0x01
+2023-11-16 10:31:44,981 - Couldn't reset target
+2023-11-16 10:31:45,987 - Couldn't reset target
+2023-11-16 10:31:45,999 - Couldn't reset target
+2023-11-16 10:31:46,008 - Reset boot delay 0.5
+2023-11-16 10:31:46,511 - Reset procedure of target complete
+2023-11-16 10:31:48,558 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=None, reset_type=0x01
+2023-11-16 10:31:48,571 - Reset boot delay 1.0
+2023-11-16 10:31:49,574 - Reset procedure of target complete
+2023-11-16 10:31:51,628 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=None, reset_type=0x01
+2023-11-16 10:31:51,640 - Reset boot delay 1.5
+2023-11-16 10:31:53,141 - Reset procedure of target complete
+2023-11-16 10:31:53,211 - Boot delay of ECU is 2.500000 seconds
+2023-11-16 10:31:53,274 - [+] Reset function identified
+2023-11-16 10:31:53,276 - The following configuration was created
+2023-11-16 10:31:53,277 - {'verbose': False, 'debug': False, 'unittest': False, 'state_graph': <scapy.contrib.automotive.scanner.graph.Graph object at 0xb3c80150>, 'test_cases': [<scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0>, <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150>, <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190>, <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0>, <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0>], 'stages': [<hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0>], 'staged_test_cases': [<hydra_core.utils.uds.dtc_enumerator.UDS_DTCEnumerator object at 0xb32f7230>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCSnapshotEnumerator object at 0xb32f7270>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCExtendedDataEnumerator object at 0xb32f72b0>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCSeverityInformationEnumerator object at 0xb32f72f0>], 'test_case_clss': {<class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCExtendedDataEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCSnapshotEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_TPEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_RCEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCSeverityInformationEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator'>}, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'global_kwargs': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DSCEnumerator': {'state_allow_list': [session1tp1], 'scan_range': [1, 2, 3, 4], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_TPEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_ServiceEnumerator': {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_RDBIEnumerator': {'state_allow_list': [session1tp1], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCFullEnumerator': {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCSnapshotEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCExtendedDataEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCSeverityInformationEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_RCEnumerator': {'state_allow_list': [session1tp1], 'type_list': [2, 3], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}}
+2023-11-16 10:31:53,282 - The following configuration was created
+2023-11-16 10:31:53,283 - {'verbose': False, 'debug': False, 'unittest': False, 'state_graph': <scapy.contrib.automotive.scanner.graph.Graph object at 0xb3c80150>, 'test_cases': [<scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0>, <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150>, <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190>, <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0>, <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0>], 'stages': [<hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0>], 'staged_test_cases': [<hydra_core.utils.uds.dtc_enumerator.UDS_DTCEnumerator object at 0xb32f7230>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCSnapshotEnumerator object at 0xb32f7270>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCExtendedDataEnumerator object at 0xb32f72b0>, <hydra_core.utils.uds.dtc_enumerator.UDS_DTCSeverityInformationEnumerator object at 0xb32f72f0>], 'test_case_clss': {<class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCExtendedDataEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCSnapshotEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_TPEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_RCEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator'>, <class 'hydra_core.utils.uds.dtc_enumerator.UDS_DTCSeverityInformationEnumerator'>, <class 'scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator'>}, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'global_kwargs': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DSCEnumerator': {'state_allow_list': [session1tp1], 'scan_range': [1, 2, 3, 4], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_TPEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_ServiceEnumerator': {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_RDBIEnumerator': {'state_allow_list': [session1tp1], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCFullEnumerator': {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCSnapshotEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCExtendedDataEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_DTCSeverityInformationEnumerator': {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}, 'UDS_RCEnumerator': {'state_allow_list': [session1tp1], 'type_list': [2, 3], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}}
+2023-11-16 10:31:53,286 - Starting UDS-Scan...
+2023-11-16 10:31:53,287 - [i] Scan progress 0.00
+2023-11-16 10:31:53,288 - [i] Scan paths [[session1]]
+2023-11-16 10:31:53,289 - Scan path [session1]
+2023-11-16 10:31:53,289 - Target reset
+2023-11-16 10:31:53,290 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:31:53,301 - Reset boot delay 2.5
+2023-11-16 10:31:55,802 - Reset procedure of target complete
+2023-11-16 10:31:55,854 - Execute <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> for path [session1]
+2023-11-16 10:31:55,855 - Execute test_case UDS_DSCEnumerator with args {'state_allow_list': [session1tp1], 'scan_range': [1, 2, 3, 4], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:31:55,860 - State session1 not in allow list!
+2023-11-16 10:31:55,861 - [i] Test_case UDS_DSCEnumerator: TODO 1, DONE 0, TOTAL 0.00
+2023-11-16 10:31:55,862 - Scan path [session1]
+2023-11-16 10:31:55,863 - Target reset
+2023-11-16 10:31:55,864 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:31:55,874 - Reset boot delay 2.5
+2023-11-16 10:31:58,378 - Reset procedure of target complete
+2023-11-16 10:31:58,434 - Execute <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> for path [session1]
+2023-11-16 10:31:58,435 - Execute test_case UDS_TPEnumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:31:58,438 - Start execution of enumerator: Thu Nov 16 10:31:58 2023
+2023-11-16 10:31:58,447 - Exit execute. Ecu state was modified!
+2023-11-16 10:31:58,451 - Stop test_case execution because of response evaluation
+2023-11-16 10:31:58,453 - Edge found (session1, session1tp1)
+2023-11-16 10:31:58,455 - [i] Test_case UDS_TPEnumerator: TODO 1, DONE 1, TOTAL 1.00
+2023-11-16 10:31:58,455 - Scan path [session1]
+2023-11-16 10:31:58,456 - Target reset
+2023-11-16 10:31:58,457 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:31:58,468 - Reset boot delay 2.5
+2023-11-16 10:32:00,970 - Reset procedure of target complete
+2023-11-16 10:32:01,013 - Execute <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> for path [session1]
+2023-11-16 10:32:01,015 - Execute test_case UDS_ServiceEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:01,108 - State session1 not in allow list!
+2023-11-16 10:32:01,109 - [i] Test_case UDS_ServiceEnumerator: TODO 1, DONE 0, TOTAL 0.00
+2023-11-16 10:32:01,109 - Scan path [session1]
+2023-11-16 10:32:01,109 - Target reset
+2023-11-16 10:32:01,110 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:01,115 - Reset boot delay 2.5
+2023-11-16 10:32:03,616 - Reset procedure of target complete
+2023-11-16 10:32:03,654 - Execute <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> for path [session1]
+2023-11-16 10:32:03,654 - Execute test_case UDS_RDBIEnumerator with args {'state_allow_list': [session1tp1], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:03,770 - State session1 not in allow list!
+2023-11-16 10:32:03,772 - [i] Test_case UDS_RDBIEnumerator: TODO 1, DONE 0, TOTAL 0.00
+2023-11-16 10:32:03,773 - Scan path [session1]
+2023-11-16 10:32:03,774 - Target reset
+2023-11-16 10:32:03,775 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:03,785 - Reset boot delay 2.5
+2023-11-16 10:32:06,286 - Reset procedure of target complete
+2023-11-16 10:32:06,344 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:32:06,345 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:32:06,346 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:06,354 - State session1 not in allow list!
+2023-11-16 10:32:06,355 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.00
+2023-11-16 10:32:06,356 - Scan path [session1]
+2023-11-16 10:32:06,356 - Target reset
+2023-11-16 10:32:06,357 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:06,371 - Reset boot delay 2.5
+2023-11-16 10:32:08,874 - Reset procedure of target complete
+2023-11-16 10:32:08,914 - Execute <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> for path [session1]
+2023-11-16 10:32:08,914 - Execute test_case UDS_RCEnumerator with args {'state_allow_list': [session1tp1], 'type_list': [2, 3], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:09,182 - State session1 not in allow list!
+2023-11-16 10:32:09,183 - [i] Test_case UDS_RCEnumerator: TODO 1, DONE 0, TOTAL 0.00
+2023-11-16 10:32:09,184 - [i] Scan progress 0.17
+2023-11-16 10:32:09,185 - [i] Scan paths [[session1], [session1, session1tp1]]
+2023-11-16 10:32:09,186 - Scan path [session1]
+2023-11-16 10:32:09,187 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:32:09,187 - Scan path [session1]
+2023-11-16 10:32:09,188 - Target reset
+2023-11-16 10:32:09,188 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:09,197 - Reset boot delay 2.5
+2023-11-16 10:32:11,698 - Reset procedure of target complete
+2023-11-16 10:32:11,754 - Execute <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> for path [session1]
+2023-11-16 10:32:11,755 - Execute test_case UDS_TPEnumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:11,757 - Start execution of enumerator: Thu Nov 16 10:32:11 2023
+2023-11-16 10:32:11,757 - Finished iterator execution
+2023-11-16 10:32:11,758 - States completed defaultdict(<class 'bool'>, {session1: True})
+2023-11-16 10:32:11,759 - Edge found (session1, session1tp1)
+2023-11-16 10:32:11,760 - [i] Test_case UDS_TPEnumerator: TODO 1, DONE 1, TOTAL 1.00
+2023-11-16 10:32:11,761 - Scan path [session1]
+2023-11-16 10:32:11,762 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:32:11,763 - Scan path [session1]
+2023-11-16 10:32:11,764 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:32:11,765 - Scan path [session1]
+2023-11-16 10:32:11,766 - Target reset
+2023-11-16 10:32:11,767 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:11,778 - Reset boot delay 2.5
+2023-11-16 10:32:14,279 - Reset procedure of target complete
+2023-11-16 10:32:14,314 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:32:14,314 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:32:14,315 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:14,316 - State session1 not in allow list!
+2023-11-16 10:32:14,316 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.00
+2023-11-16 10:32:14,316 - Scan path [session1]
+2023-11-16 10:32:14,317 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:32:14,317 - Scan path [session1, session1tp1]
+2023-11-16 10:32:14,318 - Target reset
+2023-11-16 10:32:14,318 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:14,323 - Reset boot delay 2.5
+2023-11-16 10:32:16,824 - Reset procedure of target complete
+2023-11-16 10:32:16,876 - Execute <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> for path [session1, session1tp1]
+2023-11-16 10:32:16,881 - Execute test_case UDS_DSCEnumerator with args {'state_allow_list': [session1tp1], 'scan_range': [1, 2, 3, 4], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:16,884 - Start execution of enumerator: Thu Nov 16 10:32:16 2023
+2023-11-16 10:32:16,931 - Exit execute. Ecu state was modified!
+2023-11-16 10:32:16,932 - Stop test_case execution because of response evaluation
+2023-11-16 10:32:16,932 - Edge found (session1tp1, session3tp1)
+2023-11-16 10:32:16,933 - [i] Test_case UDS_DSCEnumerator: TODO 4, DONE 3, TOTAL 0.75
+2023-11-16 10:32:16,934 - Scan path [session1, session1tp1]
+2023-11-16 10:32:16,935 - Target reset
+2023-11-16 10:32:16,935 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:16,943 - Reset boot delay 2.5
+2023-11-16 10:32:19,444 - Reset procedure of target complete
+2023-11-16 10:32:19,485 - Execute <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> for path [session1, session1tp1]
+2023-11-16 10:32:19,487 - Execute test_case UDS_TPEnumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:19,488 - Start execution of enumerator: Thu Nov 16 10:32:19 2023
+2023-11-16 10:32:19,493 - Finished iterator execution
+2023-11-16 10:32:19,495 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:32:19,495 - [i] Test_case UDS_TPEnumerator: TODO 2, DONE 2, TOTAL 1.00
+2023-11-16 10:32:19,496 - Scan path [session1, session1tp1]
+2023-11-16 10:32:19,496 - Target reset
+2023-11-16 10:32:19,497 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:19,501 - Reset boot delay 2.5
+2023-11-16 10:32:22,003 - Reset procedure of target complete
+2023-11-16 10:32:22,035 - Execute <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> for path [session1, session1tp1]
+2023-11-16 10:32:22,039 - Execute test_case UDS_ServiceEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:22,040 - Start execution of enumerator: Thu Nov 16 10:32:22 2023
+2023-11-16 10:32:22,867 - Finished iterator execution
+2023-11-16 10:32:22,867 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:32:22,869 - [i] Test_case UDS_ServiceEnumerator: TODO 128, DONE 128, TOTAL 1.00
+2023-11-16 10:32:22,870 - Scan path [session1, session1tp1]
+2023-11-16 10:32:22,871 - Target reset
+2023-11-16 10:32:22,871 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:22,877 - Reset boot delay 2.5
+2023-11-16 10:32:25,378 - Reset procedure of target complete
+2023-11-16 10:32:25,415 - Execute <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> for path [session1, session1tp1]
+2023-11-16 10:32:25,417 - Execute test_case UDS_RDBIEnumerator with args {'state_allow_list': [session1tp1], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:25,418 - Start execution of enumerator: Thu Nov 16 10:32:25 2023
+2023-11-16 10:32:27,156 - Finished iterator execution
+2023-11-16 10:32:27,156 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:32:27,159 - [i] Test_case UDS_RDBIEnumerator: TODO 256, DONE 256, TOTAL 1.00
+2023-11-16 10:32:27,160 - Scan path [session1, session1tp1]
+2023-11-16 10:32:27,161 - Target reset
+2023-11-16 10:32:27,161 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:27,167 - Reset boot delay 2.5
+2023-11-16 10:32:29,668 - Reset procedure of target complete
+2023-11-16 10:32:29,705 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:32:29,707 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:32:29,708 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:29,711 - Start execution of enumerator: Thu Nov 16 10:32:29 2023
+2023-11-16 10:32:29,840 - Finished iterator execution
+2023-11-16 10:32:29,841 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:32:29,842 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:32:29,844 - Scan path [session1, session1tp1]
+2023-11-16 10:32:29,844 - Target reset
+2023-11-16 10:32:29,845 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:29,850 - Reset boot delay 2.5
+2023-11-16 10:32:32,353 - Reset procedure of target complete
+2023-11-16 10:32:32,405 - Execute <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> for path [session1, session1tp1]
+2023-11-16 10:32:32,408 - Execute test_case UDS_RCEnumerator with args {'state_allow_list': [session1tp1], 'type_list': [2, 3], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:32,409 - Start execution of enumerator: Thu Nov 16 10:32:32 2023
+2023-11-16 10:32:35,781 - Finished iterator execution
+2023-11-16 10:32:35,782 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:32:35,786 - [i] Test_case UDS_RCEnumerator: TODO 512, DONE 512, TOTAL 1.00
+2023-11-16 10:32:35,794 - [i] Scan progress 0.83
+2023-11-16 10:32:35,795 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:32:35,796 - Scan path [session1]
+2023-11-16 10:32:35,797 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:32:35,797 - Scan path [session1]
+2023-11-16 10:32:35,797 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:32:35,798 - Scan path [session1]
+2023-11-16 10:32:35,798 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:32:35,799 - Scan path [session1]
+2023-11-16 10:32:35,799 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:32:35,799 - Scan path [session1]
+2023-11-16 10:32:35,800 - Target reset
+2023-11-16 10:32:35,800 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:35,806 - Reset boot delay 2.5
+2023-11-16 10:32:38,306 - Reset procedure of target complete
+2023-11-16 10:32:38,345 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:32:38,347 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:32:38,348 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:38,350 - State session1 not in allow list!
+2023-11-16 10:32:38,352 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:32:38,353 - Scan path [session1]
+2023-11-16 10:32:38,355 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:32:38,357 - Scan path [session1, session1tp1]
+2023-11-16 10:32:38,359 - Target reset
+2023-11-16 10:32:38,361 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:38,378 - Reset boot delay 2.5
+2023-11-16 10:32:40,880 - Reset procedure of target complete
+2023-11-16 10:32:40,935 - Execute <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> for path [session1, session1tp1]
+2023-11-16 10:32:40,939 - Execute test_case UDS_DSCEnumerator with args {'state_allow_list': [session1tp1], 'scan_range': [1, 2, 3, 4], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:40,940 - Start execution of enumerator: Thu Nov 16 10:32:40 2023
+2023-11-16 10:32:40,947 - Finished iterator execution
+2023-11-16 10:32:40,948 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:32:40,949 - [i] Test_case UDS_DSCEnumerator: TODO 4, DONE 4, TOTAL 1.00
+2023-11-16 10:32:40,950 - Scan path [session1, session1tp1]
+2023-11-16 10:32:40,951 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:32:40,951 - Scan path [session1, session1tp1]
+2023-11-16 10:32:40,952 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:32:40,952 - Scan path [session1, session1tp1]
+2023-11-16 10:32:40,953 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:32:40,953 - Scan path [session1, session1tp1]
+2023-11-16 10:32:40,954 - Target reset
+2023-11-16 10:32:40,955 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:40,961 - Reset boot delay 2.5
+2023-11-16 10:32:43,461 - Reset procedure of target complete
+2023-11-16 10:32:43,515 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:32:43,517 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:32:43,518 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:43,519 - Start execution of enumerator: Thu Nov 16 10:32:43 2023
+2023-11-16 10:32:43,519 - Finished iterator execution
+2023-11-16 10:32:43,520 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:32:43,521 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:32:43,521 - Scan path [session1, session1tp1]
+2023-11-16 10:32:43,522 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:32:43,522 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:32:43,523 - Target reset
+2023-11-16 10:32:43,524 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:43,529 - Reset boot delay 2.5
+2023-11-16 10:32:46,030 - Reset procedure of target complete
+2023-11-16 10:32:51,091 - Execute <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:32:51,097 - Execute test_case UDS_DSCEnumerator with args {'state_allow_list': [session1tp1], 'scan_range': [1, 2, 3, 4], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:51,098 - State session3tp1 not in allow list!
+2023-11-16 10:32:51,100 - [i] Test_case UDS_DSCEnumerator: TODO 4, DONE 4, TOTAL 1.00
+2023-11-16 10:32:51,101 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:32:51,103 - Target reset
+2023-11-16 10:32:51,104 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:51,117 - Reset boot delay 2.5
+2023-11-16 10:32:53,618 - Reset procedure of target complete
+2023-11-16 10:32:58,693 - Execute <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:32:58,700 - Execute test_case UDS_TPEnumerator with args {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:32:58,702 - Start execution of enumerator: Thu Nov 16 10:32:58 2023
+2023-11-16 10:32:58,715 - Finished iterator execution
+2023-11-16 10:32:58,717 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True, session3tp1: True})
+2023-11-16 10:32:58,718 - [i] Test_case UDS_TPEnumerator: TODO 3, DONE 3, TOTAL 1.00
+2023-11-16 10:32:58,719 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:32:58,720 - Target reset
+2023-11-16 10:32:58,721 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:32:58,733 - Reset boot delay 2.5
+2023-11-16 10:33:01,235 - Reset procedure of target complete
+2023-11-16 10:33:06,289 - Execute <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:06,292 - Execute test_case UDS_ServiceEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:06,296 - State session3tp1 not in allow list!
+2023-11-16 10:33:06,299 - [i] Test_case UDS_ServiceEnumerator: TODO 128, DONE 128, TOTAL 1.00
+2023-11-16 10:33:06,301 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:06,302 - Target reset
+2023-11-16 10:33:06,303 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:06,315 - Reset boot delay 2.5
+2023-11-16 10:33:08,817 - Reset procedure of target complete
+2023-11-16 10:33:13,890 - Execute <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:13,891 - Execute test_case UDS_RDBIEnumerator with args {'state_allow_list': [session1tp1], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:13,892 - State session3tp1 not in allow list!
+2023-11-16 10:33:13,894 - [i] Test_case UDS_RDBIEnumerator: TODO 256, DONE 256, TOTAL 1.00
+2023-11-16 10:33:13,895 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:13,895 - Target reset
+2023-11-16 10:33:13,896 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:13,900 - Reset boot delay 2.5
+2023-11-16 10:33:16,402 - Reset procedure of target complete
+2023-11-16 10:33:21,448 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:21,453 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:33:21,454 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:21,456 - State session3tp1 not in allow list!
+2023-11-16 10:33:21,457 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:33:21,458 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:21,459 - Target reset
+2023-11-16 10:33:21,460 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:21,473 - Reset boot delay 2.5
+2023-11-16 10:33:23,975 - Reset procedure of target complete
+2023-11-16 10:33:29,059 - Execute <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:29,062 - Execute test_case UDS_RCEnumerator with args {'state_allow_list': [session1tp1], 'type_list': [2, 3], 'scan_range': [65280, 65281, 65282, 65283, 65284, 65285, 65286, 65287, 65288, 65289, 65290, 65291, 65292, 65293, 65294, 65295, 65296, 65297, 65298, 65299, 65300, 65301, 65302, 65303, 65304, 65305, 65306, 65307, 65308, 65309, 65310, 65311, 65312, 65313, 65314, 65315, 65316, 65317, 65318, 65319, 65320, 65321, 65322, 65323, 65324, 65325, 65326, 65327, 65328, 65329, 65330, 65331, 65332, 65333, 65334, 65335, 65336, 65337, 65338, 65339, 65340, 65341, 65342, 65343, 65344, 65345, 65346, 65347, 65348, 65349, 65350, 65351, 65352, 65353, 65354, 65355, 65356, 65357, 65358, 65359, 65360, 65361, 65362, 65363, 65364, 65365, 65366, 65367, 65368, 65369, 65370, 65371, 65372, 65373, 65374, 65375, 65376, 65377, 65378, 65379, 65380, 65381, 65382, 65383, 65384, 65385, 65386, 65387, 65388, 65389, 65390, 65391, 65392, 65393, 65394, 65395, 65396, 65397, 65398, 65399, 65400, 65401, 65402, 65403, 65404, 65405, 65406, 65407, 65408, 65409, 65410, 65411, 65412, 65413, 65414, 65415, 65416, 65417, 65418, 65419, 65420, 65421, 65422, 65423, 65424, 65425, 65426, 65427, 65428, 65429, 65430, 65431, 65432, 65433, 65434, 65435, 65436, 65437, 65438, 65439, 65440, 65441, 65442, 65443, 65444, 65445, 65446, 65447, 65448, 65449, 65450, 65451, 65452, 65453, 65454, 65455, 65456, 65457, 65458, 65459, 65460, 65461, 65462, 65463, 65464, 65465, 65466, 65467, 65468, 65469, 65470, 65471, 65472, 65473, 65474, 65475, 65476, 65477, 65478, 65479, 65480, 65481, 65482, 65483, 65484, 65485, 65486, 65487, 65488, 65489, 65490, 65491, 65492, 65493, 65494, 65495, 65496, 65497, 65498, 65499, 65500, 65501, 65502, 65503, 65504, 65505, 65506, 65507, 65508, 65509, 65510, 65511, 65512, 65513, 65514, 65515, 65516, 65517, 65518, 65519, 65520, 65521, 65522, 65523, 65524, 65525, 65526, 65527, 65528, 65529, 65530, 65531, 65532, 65533, 65534, 65535], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:29,064 - State session3tp1 not in allow list!
+2023-11-16 10:33:29,078 - [i] Test_case UDS_RCEnumerator: TODO 512, DONE 512, TOTAL 1.00
+2023-11-16 10:33:29,097 - [i] Scan progress 0.88
+2023-11-16 10:33:29,099 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:33:29,102 - Scan path [session1]
+2023-11-16 10:33:29,103 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:29,104 - Scan path [session1]
+2023-11-16 10:33:29,105 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:29,106 - Scan path [session1]
+2023-11-16 10:33:29,107 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:29,108 - Scan path [session1]
+2023-11-16 10:33:29,109 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:29,109 - Scan path [session1]
+2023-11-16 10:33:29,111 - Target reset
+2023-11-16 10:33:29,111 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:29,123 - Reset boot delay 2.5
+2023-11-16 10:33:31,624 - Reset procedure of target complete
+2023-11-16 10:33:31,684 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:33:31,685 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:33:31,686 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:31,687 - State session1 not in allow list!
+2023-11-16 10:33:31,689 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:33:31,689 - Scan path [session1]
+2023-11-16 10:33:31,690 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:33:31,691 - Scan path [session1, session1tp1]
+2023-11-16 10:33:31,692 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:31,693 - Scan path [session1, session1tp1]
+2023-11-16 10:33:31,694 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:31,695 - Scan path [session1, session1tp1]
+2023-11-16 10:33:31,696 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:31,697 - Scan path [session1, session1tp1]
+2023-11-16 10:33:31,698 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:31,698 - Scan path [session1, session1tp1]
+2023-11-16 10:33:31,700 - Target reset
+2023-11-16 10:33:31,700 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:31,710 - Reset boot delay 2.5
+2023-11-16 10:33:34,213 - Reset procedure of target complete
+2023-11-16 10:33:34,256 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:33:34,259 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:33:34,262 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:34,264 - Start execution of enumerator: Thu Nov 16 10:33:34 2023
+2023-11-16 10:33:34,265 - Finished iterator execution
+2023-11-16 10:33:34,266 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True, session3tp1: True})
+2023-11-16 10:33:34,267 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:33:34,268 - Scan path [session1, session1tp1]
+2023-11-16 10:33:34,271 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:33:34,272 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:34,273 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:34,274 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:34,275 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:34,276 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:34,276 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:34,277 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:34,278 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:34,279 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:34,280 - Target reset
+2023-11-16 10:33:34,280 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:34,291 - Reset boot delay 2.5
+2023-11-16 10:33:36,792 - Reset procedure of target complete
+2023-11-16 10:33:41,843 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:41,846 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:33:41,847 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:41,848 - State session3tp1 not in allow list!
+2023-11-16 10:33:41,849 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:33:41,850 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:41,851 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:33:41,866 - [i] Scan progress 0.88
+2023-11-16 10:33:41,869 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:33:41,873 - Scan path [session1]
+2023-11-16 10:33:41,873 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:41,874 - Scan path [session1]
+2023-11-16 10:33:41,875 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:41,876 - Scan path [session1]
+2023-11-16 10:33:41,877 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:41,877 - Scan path [session1]
+2023-11-16 10:33:41,878 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:41,879 - Scan path [session1]
+2023-11-16 10:33:41,880 - Target reset
+2023-11-16 10:33:41,880 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:41,889 - Reset boot delay 2.5
+2023-11-16 10:33:44,392 - Reset procedure of target complete
+2023-11-16 10:33:44,454 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:33:44,455 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:33:44,456 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:44,456 - State session1 not in allow list!
+2023-11-16 10:33:44,457 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:33:44,458 - Scan path [session1]
+2023-11-16 10:33:44,458 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:33:44,459 - Scan path [session1, session1tp1]
+2023-11-16 10:33:44,460 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:44,461 - Scan path [session1, session1tp1]
+2023-11-16 10:33:44,461 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:44,462 - Scan path [session1, session1tp1]
+2023-11-16 10:33:44,463 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:44,463 - Scan path [session1, session1tp1]
+2023-11-16 10:33:44,464 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:44,465 - Scan path [session1, session1tp1]
+2023-11-16 10:33:44,465 - Target reset
+2023-11-16 10:33:44,466 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:44,476 - Reset boot delay 2.5
+2023-11-16 10:33:46,976 - Reset procedure of target complete
+2023-11-16 10:33:47,036 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:33:47,038 - Stage AutomotiveTestCase UDS_DTCEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>}
+2023-11-16 10:33:47,041 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:47,042 - Start execution of enumerator: Thu Nov 16 10:33:47 2023
+2023-11-16 10:33:47,043 - Finished iterator execution
+2023-11-16 10:33:47,044 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True, session3tp1: True})
+2023-11-16 10:33:47,045 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 0, TOTAL 0.25
+2023-11-16 10:33:47,046 - Scan path [session1, session1tp1]
+2023-11-16 10:33:47,047 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:33:47,047 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:47,048 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:47,049 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:47,050 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:47,051 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:47,051 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:47,052 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:47,053 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:47,054 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:47,055 - Staged AutomotiveTestCase UDS_DTCEnumerator completed
+2023-11-16 10:33:47,056 - Target reset
+2023-11-16 10:33:47,056 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:47,066 - Reset boot delay 2.5
+2023-11-16 10:33:49,567 - Reset procedure of target complete
+2023-11-16 10:33:54,620 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:54,626 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:33:54,628 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:54,689 - State session3tp1 not in allow list!
+2023-11-16 10:33:54,690 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.25
+2023-11-16 10:33:54,690 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:33:54,691 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:33:54,703 - [i] Scan progress 0.88
+2023-11-16 10:33:54,705 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:33:54,707 - Scan path [session1]
+2023-11-16 10:33:54,708 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:54,708 - Scan path [session1]
+2023-11-16 10:33:54,709 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:54,709 - Scan path [session1]
+2023-11-16 10:33:54,710 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:54,711 - Scan path [session1]
+2023-11-16 10:33:54,711 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:54,712 - Scan path [session1]
+2023-11-16 10:33:54,712 - Target reset
+2023-11-16 10:33:54,713 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:54,721 - Reset boot delay 2.5
+2023-11-16 10:33:57,222 - Reset procedure of target complete
+2023-11-16 10:33:57,254 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:33:57,255 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:33:57,256 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:57,258 - State session1 not in allow list!
+2023-11-16 10:33:57,259 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.25
+2023-11-16 10:33:57,260 - Scan path [session1]
+2023-11-16 10:33:57,261 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:33:57,261 - Scan path [session1, session1tp1]
+2023-11-16 10:33:57,262 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:33:57,263 - Scan path [session1, session1tp1]
+2023-11-16 10:33:57,264 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:33:57,265 - Scan path [session1, session1tp1]
+2023-11-16 10:33:57,266 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:33:57,267 - Scan path [session1, session1tp1]
+2023-11-16 10:33:57,268 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:33:57,269 - Scan path [session1, session1tp1]
+2023-11-16 10:33:57,272 - Target reset
+2023-11-16 10:33:57,273 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:33:57,285 - Reset boot delay 2.5
+2023-11-16 10:33:59,786 - Reset procedure of target complete
+2023-11-16 10:33:59,846 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:33:59,851 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:33:59,852 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:33:59,915 - Start execution of enumerator: Thu Nov 16 10:33:59 2023
+2023-11-16 10:34:00,189 - Finished iterator execution
+2023-11-16 10:34:00,191 - States completed defaultdict(<class 'bool'>, {session3tp1: True, session1: True, session1tp1: True})
+2023-11-16 10:34:00,192 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.50
+2023-11-16 10:34:00,194 - Scan path [session1, session1tp1]
+2023-11-16 10:34:00,195 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:00,196 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:00,198 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:00,199 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:00,199 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:00,200 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:00,200 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:00,201 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:00,201 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:00,201 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:00,202 - Target reset
+2023-11-16 10:34:00,203 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:00,208 - Reset boot delay 2.5
+2023-11-16 10:34:02,709 - Reset procedure of target complete
+2023-11-16 10:34:07,754 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:07,757 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:07,758 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:07,759 - State session3tp1 not in allow list!
+2023-11-16 10:34:07,760 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.50
+2023-11-16 10:34:07,760 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:07,761 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:07,768 - [i] Scan progress 0.92
+2023-11-16 10:34:07,769 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:34:07,771 - Scan path [session1]
+2023-11-16 10:34:07,772 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:07,772 - Scan path [session1]
+2023-11-16 10:34:07,773 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:07,773 - Scan path [session1]
+2023-11-16 10:34:07,774 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:07,774 - Scan path [session1]
+2023-11-16 10:34:07,775 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:07,775 - Scan path [session1]
+2023-11-16 10:34:07,776 - Target reset
+2023-11-16 10:34:07,776 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:07,781 - Reset boot delay 2.5
+2023-11-16 10:34:10,282 - Reset procedure of target complete
+2023-11-16 10:34:10,334 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:34:10,335 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:10,337 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:10,338 - State session1 not in allow list!
+2023-11-16 10:34:10,340 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.50
+2023-11-16 10:34:10,341 - Scan path [session1]
+2023-11-16 10:34:10,342 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:10,343 - Scan path [session1, session1tp1]
+2023-11-16 10:34:10,344 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:10,345 - Scan path [session1, session1tp1]
+2023-11-16 10:34:10,346 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:10,346 - Scan path [session1, session1tp1]
+2023-11-16 10:34:10,347 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:10,348 - Scan path [session1, session1tp1]
+2023-11-16 10:34:10,349 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:10,350 - Scan path [session1, session1tp1]
+2023-11-16 10:34:10,352 - Target reset
+2023-11-16 10:34:10,352 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:10,364 - Reset boot delay 2.5
+2023-11-16 10:34:12,866 - Reset procedure of target complete
+2023-11-16 10:34:12,906 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:34:12,909 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:12,910 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:12,912 - Start execution of enumerator: Thu Nov 16 10:34:12 2023
+2023-11-16 10:34:12,913 - Finished iterator execution
+2023-11-16 10:34:12,914 - States completed defaultdict(<class 'bool'>, {session3tp1: True, session1: True, session1tp1: True})
+2023-11-16 10:34:12,915 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.50
+2023-11-16 10:34:12,916 - Scan path [session1, session1tp1]
+2023-11-16 10:34:12,917 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:12,917 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:12,918 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:12,919 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:12,919 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:12,920 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:12,920 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:12,921 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:12,922 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:12,922 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:12,923 - Target reset
+2023-11-16 10:34:12,924 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:12,929 - Reset boot delay 2.5
+2023-11-16 10:34:15,430 - Reset procedure of target complete
+2023-11-16 10:34:20,491 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:20,492 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:20,493 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:20,495 - State session3tp1 not in allow list!
+2023-11-16 10:34:20,496 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.50
+2023-11-16 10:34:20,498 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:20,499 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:20,513 - [i] Scan progress 0.92
+2023-11-16 10:34:20,515 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:34:20,517 - Scan path [session1]
+2023-11-16 10:34:20,519 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:20,519 - Scan path [session1]
+2023-11-16 10:34:20,521 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:20,521 - Scan path [session1]
+2023-11-16 10:34:20,522 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:20,523 - Scan path [session1]
+2023-11-16 10:34:20,524 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:20,525 - Scan path [session1]
+2023-11-16 10:34:20,527 - Target reset
+2023-11-16 10:34:20,528 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:20,536 - Reset boot delay 2.5
+2023-11-16 10:34:23,039 - Reset procedure of target complete
+2023-11-16 10:34:23,094 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:34:23,095 - Stage AutomotiveTestCase UDS_DTCSnapshotEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:23,097 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:23,098 - State session1 not in allow list!
+2023-11-16 10:34:23,100 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 1, TOTAL 0.50
+2023-11-16 10:34:23,100 - Scan path [session1]
+2023-11-16 10:34:23,101 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:23,102 - Scan path [session1, session1tp1]
+2023-11-16 10:34:23,103 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:23,104 - Scan path [session1, session1tp1]
+2023-11-16 10:34:23,105 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:23,106 - Scan path [session1, session1tp1]
+2023-11-16 10:34:23,107 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:23,108 - Scan path [session1, session1tp1]
+2023-11-16 10:34:23,109 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:23,109 - Scan path [session1, session1tp1]
+2023-11-16 10:34:23,111 - Staged AutomotiveTestCase UDS_DTCSnapshotEnumerator completed
+2023-11-16 10:34:23,112 - Target reset
+2023-11-16 10:34:23,113 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:23,125 - Reset boot delay 2.5
+2023-11-16 10:34:25,626 - Reset procedure of target complete
+2023-11-16 10:34:25,686 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:34:25,689 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:25,692 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:25,806 - Start execution of enumerator: Thu Nov 16 10:34:25 2023
+2023-11-16 10:34:26,035 - Finished iterator execution
+2023-11-16 10:34:26,036 - States completed defaultdict(<class 'bool'>, {session1tp1: True})
+2023-11-16 10:34:26,036 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:26,037 - Scan path [session1, session1tp1]
+2023-11-16 10:34:26,037 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:26,038 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:26,038 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:26,039 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:26,039 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:26,040 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:26,040 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:26,040 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:26,041 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:26,041 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:26,042 - Target reset
+2023-11-16 10:34:26,042 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:26,048 - Reset boot delay 2.5
+2023-11-16 10:34:28,548 - Reset procedure of target complete
+2023-11-16 10:34:33,604 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:33,605 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:33,607 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:33,608 - State session3tp1 not in allow list!
+2023-11-16 10:34:33,610 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:33,612 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:33,613 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:33,632 - [i] Scan progress 0.96
+2023-11-16 10:34:33,635 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:34:33,638 - Scan path [session1]
+2023-11-16 10:34:33,639 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:33,640 - Scan path [session1]
+2023-11-16 10:34:33,641 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:33,642 - Scan path [session1]
+2023-11-16 10:34:33,643 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:33,644 - Scan path [session1]
+2023-11-16 10:34:33,646 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:33,647 - Scan path [session1]
+2023-11-16 10:34:33,648 - Target reset
+2023-11-16 10:34:33,649 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:33,657 - Reset boot delay 2.5
+2023-11-16 10:34:36,160 - Reset procedure of target complete
+2023-11-16 10:34:36,194 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:34:36,196 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:36,197 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:36,199 - State session1 not in allow list!
+2023-11-16 10:34:36,200 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:36,202 - Scan path [session1]
+2023-11-16 10:34:36,203 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:36,204 - Scan path [session1, session1tp1]
+2023-11-16 10:34:36,205 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:36,206 - Scan path [session1, session1tp1]
+2023-11-16 10:34:36,208 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:36,208 - Scan path [session1, session1tp1]
+2023-11-16 10:34:36,209 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:36,210 - Scan path [session1, session1tp1]
+2023-11-16 10:34:36,211 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:36,212 - Scan path [session1, session1tp1]
+2023-11-16 10:34:36,214 - Target reset
+2023-11-16 10:34:36,215 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:36,225 - Reset boot delay 2.5
+2023-11-16 10:34:38,727 - Reset procedure of target complete
+2023-11-16 10:34:38,766 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:34:38,771 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:38,774 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:38,776 - Start execution of enumerator: Thu Nov 16 10:34:38 2023
+2023-11-16 10:34:38,777 - Finished iterator execution
+2023-11-16 10:34:38,778 - States completed defaultdict(<class 'bool'>, {session1tp1: True, session3tp1: True, session1: True})
+2023-11-16 10:34:38,780 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:38,781 - Scan path [session1, session1tp1]
+2023-11-16 10:34:38,783 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:38,784 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:38,785 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:38,786 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:38,787 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:38,788 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:38,790 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:38,791 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:38,792 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:38,793 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:38,795 - Target reset
+2023-11-16 10:34:38,797 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:38,809 - Reset boot delay 2.5
+2023-11-16 10:34:41,311 - Reset procedure of target complete
+2023-11-16 10:34:46,363 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:46,365 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:46,366 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:46,367 - State session3tp1 not in allow list!
+2023-11-16 10:34:46,369 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:46,372 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:46,373 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:46,391 - [i] Scan progress 0.96
+2023-11-16 10:34:46,394 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:34:46,397 - Scan path [session1]
+2023-11-16 10:34:46,398 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:46,399 - Scan path [session1]
+2023-11-16 10:34:46,400 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:46,400 - Scan path [session1]
+2023-11-16 10:34:46,401 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:46,402 - Scan path [session1]
+2023-11-16 10:34:46,403 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:46,404 - Scan path [session1]
+2023-11-16 10:34:46,406 - Target reset
+2023-11-16 10:34:46,406 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:46,419 - Reset boot delay 2.5
+2023-11-16 10:34:48,920 - Reset procedure of target complete
+2023-11-16 10:34:48,954 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:34:48,956 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:48,957 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:48,958 - State session1 not in allow list!
+2023-11-16 10:34:48,960 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:48,961 - Scan path [session1]
+2023-11-16 10:34:48,962 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:48,962 - Scan path [session1, session1tp1]
+2023-11-16 10:34:48,963 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:48,964 - Scan path [session1, session1tp1]
+2023-11-16 10:34:48,965 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:48,966 - Scan path [session1, session1tp1]
+2023-11-16 10:34:48,967 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:48,968 - Scan path [session1, session1tp1]
+2023-11-16 10:34:48,969 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:48,971 - Scan path [session1, session1tp1]
+2023-11-16 10:34:48,973 - Target reset
+2023-11-16 10:34:48,974 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:48,982 - Reset boot delay 2.5
+2023-11-16 10:34:51,483 - Reset procedure of target complete
+2023-11-16 10:34:51,536 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:34:51,539 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:51,542 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:51,544 - Start execution of enumerator: Thu Nov 16 10:34:51 2023
+2023-11-16 10:34:51,545 - Finished iterator execution
+2023-11-16 10:34:51,546 - States completed defaultdict(<class 'bool'>, {session1tp1: True, session3tp1: True, session1: True})
+2023-11-16 10:34:51,547 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:51,548 - Scan path [session1, session1tp1]
+2023-11-16 10:34:51,549 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:51,550 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:51,551 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:51,552 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:51,553 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:51,553 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:51,554 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:51,555 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:51,556 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:51,557 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:51,558 - Target reset
+2023-11-16 10:34:51,559 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:51,568 - Reset boot delay 2.5
+2023-11-16 10:34:54,072 - Reset procedure of target complete
+2023-11-16 10:34:59,117 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:59,118 - Stage AutomotiveTestCase UDS_DTCExtendedDataEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:34:59,118 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:34:59,119 - State session3tp1 not in allow list!
+2023-11-16 10:34:59,120 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 2, TOTAL 0.75
+2023-11-16 10:34:59,120 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:34:59,121 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:34:59,128 - [i] Scan progress 0.96
+2023-11-16 10:34:59,129 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:34:59,131 - Scan path [session1]
+2023-11-16 10:34:59,131 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:34:59,131 - Scan path [session1]
+2023-11-16 10:34:59,132 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:34:59,132 - Scan path [session1]
+2023-11-16 10:34:59,133 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:34:59,133 - Scan path [session1]
+2023-11-16 10:34:59,133 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:34:59,134 - Scan path [session1]
+2023-11-16 10:34:59,135 - Staged AutomotiveTestCase UDS_DTCExtendedDataEnumerator completed
+2023-11-16 10:34:59,135 - Target reset
+2023-11-16 10:34:59,135 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:34:59,141 - Reset boot delay 2.5
+2023-11-16 10:35:01,641 - Reset procedure of target complete
+2023-11-16 10:35:01,704 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:35:01,705 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:01,705 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:01,730 - State session1 not in allow list!
+2023-11-16 10:35:01,730 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 0.75
+2023-11-16 10:35:01,731 - Scan path [session1]
+2023-11-16 10:35:01,731 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:01,732 - Scan path [session1, session1tp1]
+2023-11-16 10:35:01,732 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:01,732 - Scan path [session1, session1tp1]
+2023-11-16 10:35:01,733 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:01,733 - Scan path [session1, session1tp1]
+2023-11-16 10:35:01,734 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:01,734 - Scan path [session1, session1tp1]
+2023-11-16 10:35:01,735 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:01,735 - Scan path [session1, session1tp1]
+2023-11-16 10:35:01,735 - Target reset
+2023-11-16 10:35:01,736 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:01,742 - Reset boot delay 2.5
+2023-11-16 10:35:04,242 - Reset procedure of target complete
+2023-11-16 10:35:04,305 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:35:04,307 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:04,308 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:04,332 - Start execution of enumerator: Thu Nov 16 10:35:04 2023
+2023-11-16 10:35:04,587 - Finished iterator execution
+2023-11-16 10:35:04,593 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True})
+2023-11-16 10:35:04,595 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 1.00
+2023-11-16 10:35:04,596 - Scan path [session1, session1tp1]
+2023-11-16 10:35:04,597 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:04,599 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:04,600 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:04,601 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:04,603 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:04,604 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:04,605 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:04,606 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:04,608 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:04,609 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:04,610 - Target reset
+2023-11-16 10:35:04,611 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:04,617 - Reset boot delay 2.5
+2023-11-16 10:35:07,119 - Reset procedure of target complete
+2023-11-16 10:35:12,165 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:12,173 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:12,174 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:12,176 - State session3tp1 not in allow list!
+2023-11-16 10:35:12,178 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 1.00
+2023-11-16 10:35:12,179 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:12,181 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:12,201 - [i] Scan progress 1.00
+2023-11-16 10:35:12,204 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:35:12,207 - Scan path [session1]
+2023-11-16 10:35:12,209 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:12,210 - Scan path [session1]
+2023-11-16 10:35:12,211 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:12,212 - Scan path [session1]
+2023-11-16 10:35:12,213 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:12,214 - Scan path [session1]
+2023-11-16 10:35:12,215 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:12,216 - Scan path [session1]
+2023-11-16 10:35:12,218 - Target reset
+2023-11-16 10:35:12,219 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:12,232 - Reset boot delay 2.5
+2023-11-16 10:35:14,733 - Reset procedure of target complete
+2023-11-16 10:35:14,764 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:35:14,765 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:14,767 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:14,768 - State session1 not in allow list!
+2023-11-16 10:35:14,769 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 1.00
+2023-11-16 10:35:14,772 - Scan path [session1]
+2023-11-16 10:35:14,773 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:14,774 - Scan path [session1, session1tp1]
+2023-11-16 10:35:14,775 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:14,776 - Scan path [session1, session1tp1]
+2023-11-16 10:35:14,777 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:14,778 - Scan path [session1, session1tp1]
+2023-11-16 10:35:14,779 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:14,779 - Scan path [session1, session1tp1]
+2023-11-16 10:35:14,780 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:14,781 - Scan path [session1, session1tp1]
+2023-11-16 10:35:14,783 - Target reset
+2023-11-16 10:35:14,784 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:14,796 - Reset boot delay 2.5
+2023-11-16 10:35:17,297 - Reset procedure of target complete
+2023-11-16 10:35:17,336 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:35:17,341 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:17,342 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:17,344 - Start execution of enumerator: Thu Nov 16 10:35:17 2023
+2023-11-16 10:35:17,345 - Finished iterator execution
+2023-11-16 10:35:17,346 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True, session3tp1: True})
+2023-11-16 10:35:17,348 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 1.00
+2023-11-16 10:35:17,350 - Scan path [session1, session1tp1]
+2023-11-16 10:35:17,351 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:17,352 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:17,353 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:17,354 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:17,356 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:17,357 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:17,358 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:17,359 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:17,360 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:17,361 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:17,363 - Target reset
+2023-11-16 10:35:17,364 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:17,373 - Reset boot delay 2.5
+2023-11-16 10:35:19,877 - Reset procedure of target complete
+2023-11-16 10:35:24,925 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:24,926 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:24,926 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:24,927 - State session3tp1 not in allow list!
+2023-11-16 10:35:24,928 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 1.00
+2023-11-16 10:35:24,929 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:24,929 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:24,941 - [i] Scan progress 1.00
+2023-11-16 10:35:24,942 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:35:24,944 - Scan path [session1]
+2023-11-16 10:35:24,945 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:24,947 - Scan path [session1]
+2023-11-16 10:35:24,949 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:24,950 - Scan path [session1]
+2023-11-16 10:35:24,951 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:24,951 - Scan path [session1]
+2023-11-16 10:35:24,952 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:24,953 - Scan path [session1]
+2023-11-16 10:35:24,954 - Target reset
+2023-11-16 10:35:24,955 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:24,961 - Reset boot delay 2.5
+2023-11-16 10:35:27,464 - Reset procedure of target complete
+2023-11-16 10:35:27,524 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1]
+2023-11-16 10:35:27,526 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:27,527 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:27,529 - State session1 not in allow list!
+2023-11-16 10:35:27,531 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 1.00
+2023-11-16 10:35:27,532 - Scan path [session1]
+2023-11-16 10:35:27,533 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:27,534 - Scan path [session1, session1tp1]
+2023-11-16 10:35:27,535 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:27,536 - Scan path [session1, session1tp1]
+2023-11-16 10:35:27,537 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:27,538 - Scan path [session1, session1tp1]
+2023-11-16 10:35:27,540 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:27,541 - Scan path [session1, session1tp1]
+2023-11-16 10:35:27,542 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:27,543 - Scan path [session1, session1tp1]
+2023-11-16 10:35:27,545 - Target reset
+2023-11-16 10:35:27,546 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:27,561 - Reset boot delay 2.5
+2023-11-16 10:35:30,062 - Reset procedure of target complete
+2023-11-16 10:35:30,096 - Execute <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> for path [session1, session1tp1]
+2023-11-16 10:35:30,099 - Stage AutomotiveTestCase UDS_DTCSeverityInformationEnumerator kwargs: {'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'scan_range': {b'\x80\x1cq', b'\x80\x1ct', b'\x80\x1c\x11', b'\xcd\x04\x1e', b'\xcd\x04;', b'\x80\x1c\x01', b'\x80\x1c\x07', b'\xcd\x04 ', b'\x80\x1c\x04', b'\x80\x1cv', b'\x80\x1c`', b'\x80\x1c\x12', b'\xcd\x04=', b'\x80\x1c\x14', b'\xcd\x049', b'\xcd\x04\n', b'\x80\x1c\x10', b'\xcd\x04h', b'\x80\x1cy', b'\x80\x1c\x03', b'\x80\x1c\x15', b'\x80\x1c\x00', b'\x80\x1c!', b'\xcd\x05\x14', b'\xcd\x047', b'\x02\x10\x00', b'\x02\xff\x10', b'\x80\x1c\x13', b'\xcd\x0b\xff', b'\x80\x1c1', b'\x80\x1cs', b'\x80\x1c\x02'}}
+2023-11-16 10:35:30,102 - Execute test_case UDS_DTCFullEnumerator with args {'state_allow_list': [session1tp1], 'timeout': 0.3, 'stop_event': <threading.Event at 0xb3c80b30: unset>, 'execution_time': 1200}
+2023-11-16 10:35:30,104 - Start execution of enumerator: Thu Nov 16 10:35:30 2023
+2023-11-16 10:35:30,105 - Finished iterator execution
+2023-11-16 10:35:30,106 - States completed defaultdict(<class 'bool'>, {session1: True, session1tp1: True, session3tp1: True})
+2023-11-16 10:35:30,108 - [i] Test_case UDS_DTCFullEnumerator: TODO 4, DONE 3, TOTAL 1.00
+2023-11-16 10:35:30,109 - Scan path [session1, session1tp1]
+2023-11-16 10:35:30,111 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:30,112 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,114 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:30,115 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,116 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:30,117 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,118 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:30,120 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,121 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:30,122 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,124 - State session3tp1 for <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> completed
+2023-11-16 10:35:30,125 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,126 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:30,139 - [i] Scan progress 1.00
+2023-11-16 10:35:30,141 - [i] Scan paths [[session1], [session1, session1tp1], [session1, session1tp1, session3tp1]]
+2023-11-16 10:35:30,143 - Scan path [session1]
+2023-11-16 10:35:30,144 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:30,144 - Scan path [session1]
+2023-11-16 10:35:30,145 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:30,146 - Scan path [session1]
+2023-11-16 10:35:30,147 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:30,147 - Scan path [session1]
+2023-11-16 10:35:30,148 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:30,149 - Scan path [session1]
+2023-11-16 10:35:30,150 - State session1 for <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> completed
+2023-11-16 10:35:30,151 - Scan path [session1]
+2023-11-16 10:35:30,152 - State session1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:30,152 - Scan path [session1, session1tp1]
+2023-11-16 10:35:30,153 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:30,154 - Scan path [session1, session1tp1]
+2023-11-16 10:35:30,155 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:30,156 - Scan path [session1, session1tp1]
+2023-11-16 10:35:30,156 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:30,157 - Scan path [session1, session1tp1]
+2023-11-16 10:35:30,158 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:30,159 - Scan path [session1, session1tp1]
+2023-11-16 10:35:30,160 - State session1tp1 for <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> completed
+2023-11-16 10:35:30,161 - Scan path [session1, session1tp1]
+2023-11-16 10:35:30,161 - State session1tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:30,162 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,163 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_DSCEnumerator object at 0xb32f70f0> completed
+2023-11-16 10:35:30,164 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,165 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_TPEnumerator object at 0xb32f7150> completed
+2023-11-16 10:35:30,165 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,166 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_ServiceEnumerator object at 0xb32f7190> completed
+2023-11-16 10:35:30,167 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,168 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RDBIEnumerator object at 0xb32f71b0> completed
+2023-11-16 10:35:30,168 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,170 - State session3tp1 for <hydra_core.utils.uds.dtc_enumerator.UDS_DTCFullEnumerator object at 0xb32f71f0> completed
+2023-11-16 10:35:30,171 - Scan path [session1, session1tp1, session3tp1]
+2023-11-16 10:35:30,172 - State session3tp1 for <scapy.contrib.automotive.uds_scan.UDS_RCEnumerator object at 0xb32f73b0> completed
+2023-11-16 10:35:30,173 - Execute failure or scan completed. Exit scan!
+2023-11-16 10:35:30,174 - Target reset
+2023-11-16 10:35:30,175 - Reset procedure of target started. ResetHandler: rtt_dsc=1.000000, rtt_reset=0.002140, use_dsc=False, boot_delay=2.5, reset_type=0x01
+2023-11-16 10:35:30,182 - Reset boot delay 2.5
+2023-11-16 10:35:32,684 - Reset procedure of target complete
+2023-11-16 10:35:32,734 - Finished scan
+2023-11-16 10:35:33,076 - [+] Scanner pickled to /tmp/tmpf74wbs4i/ZGW_01/scan.pkl.gz
+2023-11-16 10:35:35,307 - [+] Outputfile /tmp/tmpf74wbs4i/ZGW_01/scan_results.json.gz written.
+2023-11-16 10:35:35,309 - Starting cleanup
+2023-11-16 10:35:35,310 - Closing sockets
+2023-11-16 10:35:35,344 - Sockets closed
+2023-11-16 10:35:35,344 - Closing loggers
